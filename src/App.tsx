@@ -1,10 +1,10 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import pagina1 from './assets/convite1.png'
-import viteLogo from '/vite.svg'
+//import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
   //  const myStyle = {
   //   backgroundImage: `url(${pagina1})`,
   //   backgroundSize: '100%', // Add other CSS properties as needed
