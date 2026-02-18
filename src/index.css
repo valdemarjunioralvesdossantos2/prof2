@@ -1,7 +1,7 @@
  @font-face {
   font-family: 'anastasia-script';
   src: 
-       url('./assets/fonts/anastasia_script/368-font.otf') format('truetype'); /* Path to the TTF file */
+       url('./assets/fonts/anastasia_script/368-font.otf') format('opentype'); /* Path to the TTF file */
   font-weight: normal;
   font-style: normal;
 }
