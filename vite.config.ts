@@ -7,5 +7,8 @@ export default defineConfig({
   build: {
   // Defina aqui o nome da nova pasta
     outDir: 'build', 
+  },
+  server: {  
+    host: true
   }
 })

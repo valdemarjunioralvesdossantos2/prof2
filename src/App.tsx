@@ -1,10 +1,15 @@
-//import { useState } from 'react'
-import pagina1 from './assets/convite1.png'
+import { useState } from 'react';
+import pagina1 from './assets/convite1.png';
+import PadrinhosPg2 from './components/PadrinhosPg2/PadrinhosPg2';
+import { useSearchParams, Route } from 'react-router-dom';
 //import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  //const [count, setCount] = useState(0)
+  const [pag2, setPag2] = useState(false)
+  let [searchParams, setSearchParams] = useSearchParams();
+  const padrinho = searchParams.get('pad');
+  const madrinha = searchParams.get('mad');
   //  const myStyle = {
   //   backgroundImage: `url(${pagina1})`,
   //   backgroundSize: '100%', // Add other CSS properties as needed
@@ -14,7 +19,9 @@ function App() {
   return (
     <>
       <div className="fundo" >
-        <img src={pagina1} className="pag1" alt="React logo" />
+        {!pag2 && <img src={pagina1} className="pag1" alt="React logo"  onClick={() => setPag2(true)}/>}
+        {pag2 && <PadrinhosPg2 madrinha={madrinha} padrinho={padrinho} ></PadrinhosPg2>}
+        
       </div>
       {/* <div>
         <a href="https://vite.dev" target="_blank">
