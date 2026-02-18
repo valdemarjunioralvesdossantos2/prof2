@@ -2,6 +2,7 @@ import { useState } from 'react';
 import pagina1 from './assets/convite1.png';
 import PadrinhosPg2 from './components/PadrinhosPg2/PadrinhosPg2';
 import { useSearchParams } from 'react-router-dom';
+import background from './assets/background.png';
 //import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -15,10 +16,14 @@ function App() {
   //   backgroundSize: '100%', // Add other CSS properties as needed
   //   backgroundRepeat: 'no-repeat'
   // }
-
+const myStyle = {
+    backgroundImage: `url(${background})`,
+     backgroundSize: '100%', // Add other CSS properties as needed
+    backgroundRepeat: 'no-repeat'
+}
   return (
     <>
-      <div className="fundo" >
+      <div className="fundo"  style={myStyle} >
         {!pag2 && <img src={pagina1} className="pag1" alt="React logo"  onClick={() => setPag2(true)}/>}
         {pag2 && <PadrinhosPg2 madrinha={madrinha} padrinho={padrinho} ></PadrinhosPg2>}
         

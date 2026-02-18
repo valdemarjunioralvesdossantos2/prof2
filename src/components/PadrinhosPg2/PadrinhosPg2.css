@@ -1,22 +1,35 @@
+.divpag2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    background: none;
+    width: 75%;
+}
 .fonteAnastasia{
-    position: absolute;
-    top: 310px;
+    /* position: absolute;
+    top: 310px; */
     /* left: 150px; */
-
+    margin-top: 150px;
     color: black;
     font-family: 'anastasia-script';
     font-size: 120px;
-    width: 1080px;
+    width: 100%;
     display: flex;
     justify-content: center;
 
 }
+.momentosFelizes{
+    font-family: "Cormorant Garamond";
+    color: black;
+    font-size: 55px;
+}
 
 .fonteAnastasia2{
     
-    width: 1080px;
-    position: absolute;
-    top: 1025px;
+    /* width: 1080px;
+    position: absolute; */
+    
     letter-spacing: 8px;
     color: black;
     font-family: 'anastasia-script';
@@ -32,10 +45,22 @@
 }
 .interroga{
     font-family: 'anastasia-script';
-    font-size: 65px;
+    font-size: 55px;
     
     display: flex;
     align-self: center;
     padding-left: 25px;
     padding-top: 15px;
+}
+
+.versiculo{
+    font-family: "Cormorant Garamond";
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.nomeData {
+    font-family: "Pompiere";
+    font-size: 40px;
 }
