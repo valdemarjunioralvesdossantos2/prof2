@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import pagina1 from './assets/convite1.png';
 import PadrinhosPg2 from './components/PadrinhosPg2/PadrinhosPg2';
-import { useSearchParams, Route } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 //import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   const [pag2, setPag2] = useState(false)
-  let [searchParams, setSearchParams] = useSearchParams();
+  let [searchParams] = useSearchParams();
   const padrinho = searchParams.get('pad');
   const madrinha = searchParams.get('mad');
   //  const myStyle = {
