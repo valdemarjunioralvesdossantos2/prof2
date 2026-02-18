@@ -1,19 +1,22 @@
 .fonteAnastasia{
-    position: fixed;
+    position: absolute;
     top: 310px;
-    left: 150px;
+    /* left: 150px; */
 
     color: black;
     font-family: 'anastasia-script';
     font-size: 120px;
-    /* width: 100%; */
+    width: 1080px;
+    display: flex;
+    justify-content: center;
 
 }
 
 .fonteAnastasia2{
-    position: fixed;
+    
+    width: 1080px;
+    position: absolute;
     top: 1025px;
-    left: 150px;
     letter-spacing: 8px;
     color: black;
     font-family: 'anastasia-script';
@@ -21,7 +24,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: 100%; */
 
 }
 .padrinhos{    
