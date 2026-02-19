@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import './FloristaPg4.css';
-import vestidos from '../../../assets/Florista/vestidos.png'
+import vestidos from '../../../assets/florista/vestidos.png'
 
 // interface PadrinhosPg2Props {madrinha: string | null, padrinho: string | null}
 
