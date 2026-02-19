@@ -72,12 +72,15 @@
     justify-content: center;
     align-items: center;
 }
-.textoEspacado{
+.textoEspacadoFlor3{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
+}
+.textoEspacadoFlor3 svg{
+    margin-right:10px;
 }
 .nomeData {
     font-family: "Pompiere";

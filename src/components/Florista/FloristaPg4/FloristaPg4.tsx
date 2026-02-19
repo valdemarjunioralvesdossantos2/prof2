@@ -22,8 +22,7 @@ const FloristaPg4: FC = function () {
          <div className='versiculo'>
             Sabemos que você fica linda de qualquer forma, 
             porém gostaríamos que se inspira-se nesse modelo, 
-            mas fique a vontade para escolher o seu próprio modelo desde que seja um vestido rodado,
-            da cor bege com laço grande nas costas na cor verde oliva.<br/>
+            mas fique a vontade para escolher o seu próprio modelo desde que seja um vestido rodado branco com laço grande nas costas na cor verde oliva.<br/>
             Ah... Lembre das flores no cabelo!
          </div>
          <div className="nomeData">

@@ -14,8 +14,8 @@ const FloristaPg3: FC = function () {
                Florista:
             </div>
             <div className='momentosFelizes'>
-              Você vai caminhar na frente da noiva, como se estivesse contando para todo mundo que um momento muito lindo vai começar.<br/>
-              O seu papel é deixar as pessoas felizes! Quando elas virem você passando, vão sentir que o amor está chegando.
+              Você vai entrar primeiro que a noiva, como se estivesse contando para todo mundo que um momento muito lindo vai começar.<br/>
+              O seu papel é deixar as pessoas felizes! Quando elas virem você passando, vão sentir que o amor está chegando para florir todo o cenário!
             </div>
             {/* <img src={pagina2} className="pag1" alt="React logo" /> */}
             <div className='fonteAnastasiaTitulos'>            
@@ -29,8 +29,8 @@ const FloristaPg3: FC = function () {
             </div>
             <div className='resposta'>
                
-               <div className="textoEspacado"><LuCalendarDays/>07/11/2026</div> 
-               <div className="textoEspacado"><CiAlarmOn/> 16h:20m</div> 
+               <div className="textoEspacadoFlor3"><LuCalendarDays/> 07/11/2026</div> 
+               <div className="textoEspacadoFlor3"><CiAlarmOn/> 16h:20m</div> 
             </div>
             <div className='antecedencia'>
                Chegue com antecedência ao local.
