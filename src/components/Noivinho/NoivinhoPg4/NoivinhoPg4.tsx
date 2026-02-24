@@ -20,7 +20,7 @@ const NoivinhoPg4: FC = function () {
             Sabemos que você fica lindo de qualquer forma, 
             porém gostaríamos que se inspira-se nesse modelo, 
             mas fique a vontade para escolher o seu próprio modelo de terno, desde que seja da cor cinza claro!<br/>
-            Ah... Lembre gravata de borboleta!
+            Ah... Lembre gravata de borboleta e tênis branco ou sapato marrom!
          </div>
          <div className="nomeData">
             Valdemar e Kêmilly<br />
