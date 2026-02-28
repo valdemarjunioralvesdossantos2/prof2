@@ -11,6 +11,7 @@ const NoivinhaPg4: FC = function () {
             
          <div className='noivinhaPlaca'> 
             <div className='exemploVestido1'> Branco </div>
+            
             <img src={terno} alt="React logo" />
             
          </div>
