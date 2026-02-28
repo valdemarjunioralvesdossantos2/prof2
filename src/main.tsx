@@ -7,6 +7,7 @@ import './index.css'
 import App from './App.tsx'
 import Florista from './components/Florista/Florista.tsx';
 import Noivinho from './components/Noivinho/Noivinho.tsx';
+import Noivinha from './components/Noivinha/Noivinha.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/dama-placa" element={ <DamaPlaca />} />
         <Route path="/florista" element={ <Florista />} />
         <Route path="/noivinho" element={ <Noivinho />} />
+        <Route path="/noivinha" element={ <Noivinha />} />
     </Routes>
      
     </BrowserRouter>

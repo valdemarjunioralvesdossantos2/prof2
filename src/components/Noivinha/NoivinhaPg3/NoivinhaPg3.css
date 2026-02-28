@@ -1,0 +1,116 @@
+.contentDama{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: none;
+    width: 100%;
+}
+.divpag2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    background: none;
+    width: 75%;
+}
+.fonteAnastasiaNoivinhaPg3{
+    /* position: absolute;
+    top: 310px; */
+    /* left: 150px; */
+    margin-top: 150px;
+    color: black;
+    font-family: 'anastasia-script';
+    font-size: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.NoivinhaPg3Terno{
+    font-family: "Cormorant Garamond";
+    color: black;
+    font-size: 50px;
+}
+
+.fonteAnastasiaTitulos{
+    
+    /* width: 1080px;
+    position: absolute; */
+    margin-top: 30px;
+    letter-spacing: 8px;
+    color: black;
+    font-family: 'anastasia-script';
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.padrinhos{    
+    display: flex;
+    align-self: center;
+}
+.interroga{
+    font-family: 'anastasia-script';
+    font-size: 55px;
+    
+    display: flex;
+    align-self: center;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.resposta{
+
+    font-family: "Cormorant Garamond";
+    font-weight: bold;
+    color: black;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textoEspacadoFlor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.textoEspacadoFlor3 svg{
+    margin-right:10px;
+}
+.nomeData {
+    font-family: "Pompiere";
+    font-size: 40px;
+}
+
+.inspireNoivinhaPg3{
+    padding-top: 90px;
+    display: flex;
+    width: 75%;
+    height: auto;
+    justify-content: end;
+    align-items: center;    
+    /* font-family: "Pompiere"; */
+    font-size: 35px;
+}
+.bolinha{
+    border-radius: 50%;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+}
+
+.antecedencia{
+    font-family: "Cormorant Garamond";
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
