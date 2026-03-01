@@ -6,6 +6,7 @@ import NoivinhoPg2 from './NoivinhoPg2/NoivinhoPg2';
 import NoivinhoPg3 from './NoivinhoPg3/NoivinhoPg3';
 import NoivinhoPg4 from './NoivinhoPg4/NoivinhoPg4';
 import background from '../../assets/background.png'
+import NoivinhoPg5 from './NoivinhoPg5/NoivinhoPg5';
 interface Noivinho {}
 
 const Noivinho: FC<Noivinho> = function () { 
@@ -20,7 +21,8 @@ const Noivinho: FC<Noivinho> = function () {
          {pag === 1 && <img src={pagina1} className="pag1" alt="React logo"  onClick={() => setPag2(2)}/>}
          {pag === 2 && <div className='fundo'  onClick={() => setPag2(3)} ><NoivinhoPg2/></div>}
          {pag === 3 && <div className='fundo'  onClick={() => setPag2(4)} ><NoivinhoPg3/></div>}
-         {pag === 4 && <div className='fundo'  onClick={() => setPag2(2)} ><NoivinhoPg4/></div>}
+         {pag === 4 && <div className='fundo'  onClick={() => setPag2(5)} ><NoivinhoPg4/></div>}
+         {pag === 5 && <div className='fundo'  onClick={() => setPag2(2)} ><NoivinhoPg5/></div>}
    </div>
    )
 }

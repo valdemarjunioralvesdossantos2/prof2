@@ -1,8 +1,8 @@
-.divpagDama3{
+.divpagnoivinho4{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 90%;
+    height: 85%;
     background: none;
     width: 75%;
 }
@@ -95,3 +95,10 @@
     font-size: 40px;
 }
 
+.inspireNoivinhoPg4{
+    font-size: 35px;
+    display: flex;
+    justify-content: end;
+    width: 75%;
+
+}
