@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 90%;
+    height: 85%;
     background: none;
     width: 75%;
 }
@@ -92,3 +92,16 @@
     font-size: 40px;
 }
 
+.inspireNoivinhaPg4{
+    font-size: 35px;
+    display: flex;
+    justify-content: end;
+    width: 75%;
+}
+
+.inspireDamaPlacaPg4{
+    font-size: 35px;
+    display: flex;
+    justify-content: end;
+    width: 75%;
+}

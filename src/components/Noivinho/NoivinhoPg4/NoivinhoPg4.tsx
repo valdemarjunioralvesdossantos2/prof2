@@ -30,7 +30,6 @@ const NoivinhoPg4: FC = function () {
       </div>
       <div className="inspireNoivinhoPg4">
          Continue . . .
-         {/* <FaLongArrowAltRight className='setinha'/> */}
       </div>
    </div>
  )

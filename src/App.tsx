@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import pagina1 from './assets/convite1.png';
 import PadrinhosPg2 from './components/PadrinhosPg2/PadrinhosPg2';
+import PadrinhosPg3 from './components/PadrinhosPg3/PadrinhosPg3';
 import { useSearchParams } from 'react-router-dom';
 import background from './assets/background.png';
 //import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [pag2, setPag2] = useState(false)
+  const [pag, setPag] = useState(1)
   let [searchParams] = useSearchParams();
   const padrinho = searchParams.get('pad');
   const madrinha = searchParams.get('mad');
@@ -24,8 +25,9 @@ const myStyle = {
   return (
     <>
       <div className="fundo"  style={myStyle} >
-        {!pag2 && <img src={pagina1} className="pag1" alt="React logo"  onClick={() => setPag2(true)}/>}
-        {pag2 && <PadrinhosPg2 madrinha={madrinha} padrinho={padrinho} ></PadrinhosPg2>}
+        {pag == 1 && <img src={pagina1} className="pag1" alt="React logo"  onClick={() => setPag(2)}/>}
+        {pag == 2 && <div className="fundo"  onClick={() => setPag(3)} ><PadrinhosPg2 madrinha={madrinha} padrinho={padrinho} ></PadrinhosPg2></div>}
+        {pag == 3 && <div className="fundo"  onClick={() => setPag(2)} ><PadrinhosPg3 madrinha={madrinha} padrinho={padrinho} ></PadrinhosPg3></div>}
         
       </div>
       {/* <div>

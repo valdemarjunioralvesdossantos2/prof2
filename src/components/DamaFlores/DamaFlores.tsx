@@ -5,7 +5,8 @@ import { useState } from 'react';
 import DamaFloresPg2 from './DamaFloresPg2/DamaFloresPg2';
 import DamaFloresPg3 from './DamaFloresPg3/DamaFloresPg3';
 import DamaFloresPg4 from './DamaFloresPg4/DamaFloresPg4';
-import background from '../../assets/background.png'
+import background from '../../assets/background.png';
+import DamaFloresPg5 from './DamaFloresPg5/DamaFloresPg5';
 interface DamaFlores {}
 
 const DamaFlores: FC<DamaFlores> = function () { 
@@ -20,7 +21,8 @@ const DamaFlores: FC<DamaFlores> = function () {
          {pag === 1 && <img src={pagina1} className="pag1" alt="React logo"  onClick={() => setPag2(2)}/>}
          {pag === 2 && <div className='fundo'  onClick={() => setPag2(3)} ><DamaFloresPg2/></div>}
          {pag === 3 && <div className='fundo'  onClick={() => setPag2(4)} ><DamaFloresPg3/></div>}
-         {pag === 4 && <div className='fundo'  onClick={() => setPag2(2)} ><DamaFloresPg4/></div>}
+         {pag === 4 && <div className='fundo'  onClick={() => setPag2(5)} ><DamaFloresPg4/></div>}
+         {pag === 5 && <div className='fundo'  onClick={() => setPag2(2)} ><DamaFloresPg5/></div>}
    </div>
    )
 }

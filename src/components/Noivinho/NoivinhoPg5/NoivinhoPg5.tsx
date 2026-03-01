@@ -13,9 +13,9 @@ const NoivinhoPg5: FC = function () {
             
          <div > 
             <div className='containerReferencias'>
-               <div className="cointainerRef">
-                  <div className='nomeReferencia'> <FaInstagram /> Suely Locação: </div>
-                  <a href="https://www.instagram.com/suelylocacaoderoupas/" target="_blank" rel="noopener noreferrer">https://www.instagram.com/suelylocacaoderoupas</a>   
+               <div className="cointainerRef" >
+                  <div className='nomeReferencia'> <FaInstagram /> Atelier Eliene Noivas: </div>
+                  <a  href="https://www.instagram.com/atelierelienenoivas/" target="_blank" rel="noopener noreferrer">https://www.instagram.com/atelierelienenoivas</a>
                </div>
                <div className="cointainerRef" >
                   <div className='nomeReferencia'> <FaInstagram /> Kazzar Trajes Masculinos: </div>
