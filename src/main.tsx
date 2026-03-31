@@ -8,19 +8,20 @@ import App from './App.tsx'
 import Florista from './components/Florista/Florista.tsx';
 import Noivinho from './components/Noivinho/Noivinho.tsx';
 import Noivinha from './components/Noivinha/Noivinha.tsx';
+import Imersos from './components/Imersos/Imersos.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-    <Routes>
-        <Route path="/" element={ <App />} />
-        <Route path="/dama-flores" element={ <DamaFlores />} />
-        <Route path="/dama-placa" element={ <DamaPlaca />} />
-        <Route path="/florista" element={ <Florista />} />
-        <Route path="/noivinho" element={ <Noivinho />} />
-        <Route path="/noivinha" element={ <Noivinha />} />
-    </Routes>
-     
+      <Routes>
+          <Route path="/" element={ <App />} />
+          <Route path="/dama-flores" element={ <DamaFlores />} />
+          <Route path="/dama-placa" element={ <DamaPlaca />} />
+          <Route path="/florista" element={ <Florista />} />
+          <Route path="/noivinho" element={ <Noivinho />} />
+          <Route path="/noivinha" element={ <Noivinha />} />
+          <Route path="/preconvite" element={ <Imersos />} />
+      </Routes>     
     </BrowserRouter>
   </StrictMode>,
 )

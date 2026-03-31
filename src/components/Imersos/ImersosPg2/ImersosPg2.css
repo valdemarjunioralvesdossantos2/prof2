@@ -1,0 +1,89 @@
+.divpag2Imersos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+    background: none;
+    width: 75%;
+}
+.topoImersos img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rodapeImersos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background: none;
+    width: 100%;
+}
+
+.fonteAnastasiaImersos{
+    /* position: absolute;
+    top: 310px; */
+    /* left: 150px; */
+    /* margin-top: 10px; */
+    color: black;
+    font-family: 'anastasia-script';
+    font-size: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topoImersos{
+    font-family: "Cormorant Garamond";
+    color: black;
+    font-size: 45px;
+    height: 75%;
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fonteAnastasia2{
+    
+    /* width: 1080px;
+    position: absolute; */
+    
+    letter-spacing: 8px;
+    color: black;
+    font-family: 'anastasia-script';
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.padrinhos{    
+    display: flex;
+    align-self: center;
+}
+
+.versiculoImersos{
+    font-family: "Cormorant Garamond";
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.nomeDataImersos {
+    font-family: "Pompiere";
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.continueImersos{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: end;
+    align-items: center;    
+    /* font-family: "Pompiere"; */
+    font-size: 35px;
+}
