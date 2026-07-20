@@ -1,0 +1,11 @@
+
+
+.convidados {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.convidado {
+    margin-bottom: 50px;
+}

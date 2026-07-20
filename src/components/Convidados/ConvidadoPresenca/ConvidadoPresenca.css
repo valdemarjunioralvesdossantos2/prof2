@@ -1,0 +1,85 @@
+.convidadoPresenca{
+    display: flex;
+    width: 100%;
+}
+
+.convidadoPresencaNome {
+    font-family: 'Quicksand Variable';
+    color: #000000;
+    font-size: 40pt;
+    width: 80%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #000000 1px solid;
+
+}
+
+.nomeAceito{
+    background-color: #76db76a6;
+    font-weight: 700;
+}
+
+.nomeNegado{
+    background-color: #cc7676a6;
+    font-weight: 700;
+}
+
+.nomeAindaNaoConfirmado {    
+    background-color: #ffffff;
+}
+
+.botaoConvidadoPresenca {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    border-radius: 35px;
+}
+
+.btConfirmar{
+    background-color: #00FF00;
+}
+
+.btNegar{
+    background-color: #FF0000;
+}
+
+.modalCrianca {
+border-radius: 15%;
+}
+
+.botoesCrianca{
+    display: flex;
+    margin-top: 80px;    
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalhoCrianca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    font-size: 60px;
+    
+}
+
+.inputIdade {
+    width: 150px;
+    height: 100px;
+    margin-top: 80px;    
+    border-radius: 30px;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.botaoConvidadoPresencaCrianca{
+    width: 300px;
+    height: 80px;
+    border-radius: 35px;
+    font-size: 60px;
+    padding:0;
+}

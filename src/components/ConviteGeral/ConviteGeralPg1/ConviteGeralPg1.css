@@ -1,0 +1,47 @@
+.contentPg1ConviteGeral{    
+  width: 100%;
+  height: 1790px;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.textoCurvo{
+    font-family: 'Quicksand Variable';
+    font-size: 36pt;
+    color: #6c704c;
+    width: auto;
+    
+}
+
+.nomesConvite{
+    font-family: 'anastasia-script';
+    color: #6c704c;
+    font-size: 87pt;
+}
+
+.cliqueParaAbrir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Quicksand Variable';
+    color: #6c704c;
+    font-size: 39pt;
+    margin-top: 50px;
+}
+
+.cliqueParaAbrir img{
+    width: 60px;
+    height: 60px;
+    margin-left: 25px;
+}
+
+.vkComBarraNoMeio{    
+    font-family: 'Quicksand Variable';
+    color: #6c704c;
+    font-size: 73pt;
+    margin-top: 150px;
+}

@@ -1,4 +1,9 @@
- @font-face {
+
+
+@import '@fontsource-variable/quicksand/wght.css';
+@import '@fontsource-variable/playfair-display/wght.css';
+
+@font-face {
   font-family: 'anastasia-script';
   src: 
        url('./assets/fonts/anastasia_script/368-font.woff') format('opentype'); /* Path to the TTF file */
@@ -6,7 +11,7 @@
   font-style: normal;
 }
 :root {
-  font-family: system-ui, Avenir, anastasia-script, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Avenir, anastasia-script, Helvetica, Arial, 'Quicksand ', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -39,7 +44,6 @@ body {
   width: 1080px;
   /* 100vmin; */
   height: 1920px; 
-  /* 100vmax; */
   
 }
 

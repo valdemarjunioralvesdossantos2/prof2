@@ -1,0 +1,24 @@
+.contentConfirmarPresenca{    
+  background-color: #FDF5E7;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.vkComBarraConfirmarPresenca {
+    font-family: 'Quicksand Variable';
+    color: #6c704c;
+    font-size: 80pt;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.textoInicialConfirmarPresenca {    
+    font-family: 'Quicksand Variable';
+    color: #6c704c;
+    font-size: 45pt;    
+    margin-bottom: 80px;
+}

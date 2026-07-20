@@ -1,0 +1,13 @@
+
+.conviteGeralBackground {
+  background-color: #FDF5E7;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+.fundoConviteGeral {
+  width: 90%;
+  height: 100%;
+}

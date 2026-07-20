@@ -9,6 +9,9 @@ import Florista from './components/Florista/Florista.tsx';
 import Noivinho from './components/Noivinho/Noivinho.tsx';
 import Noivinha from './components/Noivinha/Noivinha.tsx';
 import Imersos from './components/Imersos/Imersos.tsx';
+import ConviteGeral from './components/ConviteGeral/ConviteGeral.tsx'
+import ConfirmarPresenca from './components/ConfirmarPresenca/ConfirmarPresenca.tsx';
+import Convidados from './components/Convidados/Convidados.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -21,6 +24,9 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/noivinho" element={ <Noivinho />} />
           <Route path="/noivinha" element={ <Noivinha />} />
           <Route path="/preconvite" element={ <Imersos />} />
+          <Route path="/convite" element={ <ConviteGeral />} />
+          <Route path="/confirmarPresenca" element={ <ConfirmarPresenca />} />
+          <Route path="/configuracoes/vlad-kemi/convidados" element={ <Convidados />} />
       </Routes>     
     </BrowserRouter>
   </StrictMode>,

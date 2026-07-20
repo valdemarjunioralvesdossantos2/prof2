@@ -1,0 +1,105 @@
+.contentConvidados{    
+  background-color: #FDF5E7;
+  width: 100vw;
+  min-height: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vkComBarraConvidados {
+    font-family: 'Quicksand Variable';
+    color: #6c704c;
+    font-size: 40pt;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contadores {    
+    font-family: 'Quicksand Variable';
+    color: #6c704c;
+    font-size: 15pt;    
+    margin-bottom: 40px;
+}
+
+.convidadosConvidados {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.convidadoConvidados {
+    margin-bottom: 20px;
+}
+
+
+.convidadoPresencaConvidados{
+    display: flex;
+    width: 100%;
+}
+
+.convidadoPresencaNomeConvidados {
+    font-family: 'Quicksand Variable';
+    color: #000000;
+    font-size: 20pt;
+    width: 60%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #000000 1px solid;
+
+}
+
+.nomeAceitoConvidados{
+    background-color: #76db76a6;
+    font-weight: 700;
+}
+
+.nomeNegadoConvidados{
+    background-color: #cc7676a6;
+    font-weight: 700;
+}
+
+.nomeAindaNaoConfirmadoConvidados {    
+    background-color: #ffffff;
+}
+
+.btCopiarConvidados{
+    background-color: #ffffff;
+    border: #000000 solid 1px;
+    margin-right: 10px;
+}
+
+.botaoConvidadoPresencaConvidados {
+    width: 45px;
+    height: 45px;
+    margin-top: 3px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btConfirmarConvidados{
+    background-color: #00FF00;
+}
+
+.btNegarConvidados{
+    background-color: #FF0000;
+    margin-left: 10px;
+}
+
+.botoesRow {
+    display: flex;
+}
+
+.row-verde{    
+    background-color: #76db76a6;
+    font-weight: 700;
+}
+.row-vermelha{    
+    background-color: #cc7676a6;
+    font-weight: 700;
+}
