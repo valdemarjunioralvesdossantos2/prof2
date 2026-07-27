@@ -12,6 +12,7 @@ import Imersos from './components/Imersos/Imersos.tsx';
 import ConviteGeral from './components/ConviteGeral/ConviteGeral.tsx'
 import ConfirmarPresenca from './components/ConfirmarPresenca/ConfirmarPresenca.tsx';
 import Convidados from './components/Convidados/Convidados.tsx';
+import ManualConvidados from './components/ManualPadrinhos/ManualConvidados.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path="/convite" element={ <ConviteGeral />} />
           <Route path="/confirmarPresenca" element={ <ConfirmarPresenca />} />
           <Route path="/configuracoes/vlad-kemi/convidados" element={ <Convidados />} />
+          <Route path="/manualConvidados" element={ <ManualConvidados />} />
       </Routes>     
     </BrowserRouter>
   </StrictMode>,

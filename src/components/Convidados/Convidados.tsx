@@ -75,7 +75,7 @@ const Convidados: FC = function () {
               <button onClick={()=>{copiarTextLink(params.row.idexterno)}} disabled={false} className="botaoConvidadoPresencaConvidados btCopiarConvidados">
                       <FaRegClone  color='#000000' size={'15px'}/>
               </button>
-              {"http://" + window.location.host.toString() + "/convite?id="+params.row.idexterno}
+              {"https://" + window.location.host.toString() + "/convite?id="+params.row.idexterno}
 
             </div>
           );
