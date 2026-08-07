@@ -3,20 +3,29 @@ import { Link } from 'react-router-dom';
 import './ConviteGeralPg2.css';
 import localizacao from '../../../assets/convite-geral/localizacao.svg';
 import check from '../../../assets/convite-geral/check.svg';
-// interface PadrinhosPg2Props {madrinha: string | null, padrinho: string | null}
+import iconmanual from '../../../assets/convite-geral/iconmanual.svg'
+import seta from '../../../assets/convite-geral/seta.png';
+import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 const ConviteGeralPg2: FC = function () { 
    let [searchParams] = useSearchParams();
-   const id = searchParams.get('id');    
+   const id = searchParams.get('id'); 
+   const [hiddenScroll, setHiddenScroll] = useState(false);   
+
+ window.addEventListener('scroll', function() {
+   setHiddenScroll(true);
+ });
+
  return (   
    <div className="contentPg2ConviteGeral">
-      <div className="vkComBarraNoMeioPg2">
+      <img hidden={hiddenScroll} src={seta} className="setaParaBaixo" alt="React logo" />
+      <div className="vkComBarraNoMeioPg2" >
         V | K
       </div>
       <div className="textoInicial">
          ENVOLVIDOS POR UM VERDADEIRO AMOR, DECIDIMOS VIVER UM PARA O OUTRO E AMBOS PARA DEUS, ASSIM:<br/><br/><br/>
 
-         “AONDE QUER QUE FORES IRE E ONDE QUER QUE POUSARES, ALI POUSAREI, O TEU POVO SERÁ O MEU POVO E O TEU DEUS SERÁ O MEU DEUS”
+         “AONDE QUER QUE FORES IRE E ONDE QUER QUE POUSARES, ALI POUSAREI, O TEU POVO SERÁ O MEU POVO E O TEU DEUS SERÁ O MEU DEUS” - RUTE 1:16
       </div>
       
       <div className="bencaoPais">
@@ -63,6 +72,22 @@ const ConviteGeralPg2: FC = function () {
          <div className="cliqueIcones">CLIQUE NOS ÍCONES PARA ACESSAR</div>
          <div className="localizacaoEConfirmar">
             <div className="iconepg2">
+               CONFIRMAR PRESENÇA
+               <div className="imagemIconePg2">
+                  <Link  to={"/confirmarPresenca?id="+id}>
+                     <img src={check} className="pag1" alt="React logo" />
+                  </Link >
+               </div>      
+            </div>
+            <div className="iconepg2">
+               MANUAL DO CONVIDADO
+               <div className="imagemIconePg2">
+                  <Link  to={"/manualConvidados"}>
+                     <img src={iconmanual} className="pag1" alt="React logo" />
+                  </Link >
+               </div>      
+            </div>
+            <div className="iconepg2">
                LOCALIZAÇÃO
                <div className="imagemIconePg2" >
                   <a href="https://maps.app.goo.gl/neoDHM8y9fajRK7a7" target="_blank">
@@ -70,14 +95,6 @@ const ConviteGeralPg2: FC = function () {
                   </a>
                </div>
       
-            </div>
-            <div className="iconepg2">
-               CONFIRMAR PRESENÇA
-               <div className="imagemIconePg2">
-                  <Link  to={"/confirmarPresenca?id="+id}>
-                     <img src={check} className="pag1" alt="React logo" />
-                  </Link >
-               </div>      
             </div>
          </div>
       </div>

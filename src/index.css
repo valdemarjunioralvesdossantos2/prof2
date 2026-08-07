@@ -10,6 +10,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 :root {
   font-family: system-ui, Avenir, anastasia-script, Helvetica, Arial, 'Quicksand ', sans-serif;
   line-height: 1.5;
@@ -42,8 +43,11 @@ body {
   display: flex;
   place-items: center;
   width: 1080px;
+  
   /* 100vmin; */
-  height: 1920px; 
+  height: 1920px;
+  min-height: 100dvh;
+  overflow-y: scroll;
   
 }
 

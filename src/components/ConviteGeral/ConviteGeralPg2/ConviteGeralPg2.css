@@ -6,6 +6,7 @@
   flex-direction: column;
 }
 
+
 .vkComBarraNoMeioPg2 {    
     font-family: 'Quicksand Variable';
     color: #6c704c;
@@ -48,6 +49,7 @@
     /* line-height: 1.2; */
 
 }
+
 
 .dataEEndereco {
     display: flex;
@@ -112,20 +114,20 @@
     align-items: center;
     border-radius: 50%;
     border: 5px solid black;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin-top: 25px;
 }
 
 .imagemIconePg2 img{
-    width: 300px;
+    width: 200px;
 }
 
 .iconepg2{
     font-family: 'Quicksand Variable';
     font-weight: 700;
     color: #6c704c;
-    font-size: 23.8pt;
+    font-size: 18pt;
 }
 
 .paraQueVejam{    
@@ -134,4 +136,33 @@
     margin-bottom: 150px;
     color: #6c704c;
     font-size: 23.8pt;
+}
+
+.setaParaBaixo{
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+    animation: descer 3s linear infinite, piscar 0.5s ease-in-out infinite;
+}
+
+/* 1. Animação de descida */
+@keyframes descer {
+    0% {
+        transform: translateY(0); /* Posição inicial */
+    }
+    100% {
+        transform: translateY(300px); /* O quanto a imagem vai descer (ajuste este valor) */
+    }
+}
+
+/* 2. Animação de piscar */
+@keyframes piscar {
+    0%, 100% {
+        opacity: 1; /* Totalmente visível */
+    }
+    50% {
+        opacity: 0; /* Totalmente invisível */
+    }
 }

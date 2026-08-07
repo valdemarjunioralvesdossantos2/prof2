@@ -12,7 +12,12 @@ import Imersos from './components/Imersos/Imersos.tsx';
 import ConviteGeral from './components/ConviteGeral/ConviteGeral.tsx'
 import ConfirmarPresenca from './components/ConfirmarPresenca/ConfirmarPresenca.tsx';
 import Convidados from './components/Convidados/Convidados.tsx';
-import ManualConvidados from './components/ManualPadrinhos/ManualConvidados.tsx';
+import ManualConvidados from './components/ManualConvidados/ManualConvidados.tsx';
+
+
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
