@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const api = axios.create({
 
-    baseURL: 'https://ec2-3-19-68-76.us-east-2.compute.amazonaws.com/backend',
+    baseURL: 'https://vladkemicasamento.gotdns.ch/backend',
 
 })
 api.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
